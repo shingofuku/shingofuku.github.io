@@ -311,6 +311,9 @@ body{
   }
 
   /* --- contact --- */
+  #contact{
+    margin 50px 50px;
+  }
   .contact {
     padding-bottom: 80px;
   }
