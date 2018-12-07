@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <title>GonshiProject</title>
   </head>
   <body>
@@ -29,18 +29,17 @@
       <p class="about-text">
         このサイトを通じて色々な出会いがあるように、楽しみにしています。
       </p>
-     <a href="https://twitter.com/gonshi20?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @gonshi20</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a href="https://twitter.com/gonshi20?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @gonshi20</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </section>
     <section class="works">
       <h2 class="heading">WORKS</h2>
-    <ul>
-      <li class="sp-menu" id="portfolio">
+      <div class="sp-menu" id="portfolio">
         <a href="https://drive.google.com/drive/folders/1ItmU4qLPhYR4oebyp3tSTH7h0rnQnOIl?usp=sharing" class="port">portfolio</a>
-      </li>
-      <li class="sp-menu" id="photo">
+      </div>
+      <div class="sp-menu" id="photo">
         <a href="https://drive.google.com/drive/folders/1wqmHIQrcjvnSJb4gok9ATsZdA_uRyZeW?usp=sharing" class="pho">photo</a>
-      </li>
-    </ul>
+      </div>
+
     </section>
     <section class="skills">
       <h2 class="heading">MY SKILLS</h2>
@@ -91,7 +90,7 @@
         <input type="email" name="entry.2089561714" placeholder="example@mail.co.jp">
         <label for="msg">お問い合わせ内容</label>
         <textarea name="entry.1704384747" placeholder="MESSAGE"></textarea>
-        <input type="submit" value="送信">
+        <input id="buttom" type="submit" value="送信">
       </form>
     </section>
     <footer class="footer">
